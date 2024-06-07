@@ -96,7 +96,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div className='buttons'>
-            <div className='google-search'>Google search</div>
+            <div className='google-search'>Google Search</div>
             <div className='lucky'>I'm Feeling Lucky</div>
           </div>
           <div className='languages'>Google offered in:
