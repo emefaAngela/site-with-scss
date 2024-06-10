@@ -90,14 +90,15 @@ const IndexPage = () => {
             />
           </div>
           <div className='search-bar'>
-            <div> <FontAwesomeIcon icon={faSearch} /></div>
+            <input type='text' className='search-input'/>
+            <div className='icon'> <FontAwesomeIcon icon={faSearch} /></div>
             <div className='icon'>
             
             </div>
           </div>
           <div className='buttons'>
-            <div className='google-search'>Google Search</div>
-            <div className='lucky'>I'm Feeling Lucky</div>
+            <button className='google-search'>Google Search</button>
+            <button className='lucky'>I'm Feeling Lucky</button>
           </div>
           <div className='languages'>Google offered in:
           <Link to='hausa' className='language-link'>Hausa</Link>
